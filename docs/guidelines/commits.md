@@ -1,11 +1,11 @@
 ---
 ---
 
-# Richtlinien für Commits
+# Richtlinie für Commits
 
-## Convential Commits
+## Conventional Commits
 
-Für alle unsere Projekte verfolgen wir im Groben die [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) Spezifikation. Diese Spezifikation beschreibt, wie ein Commit-Message aufgebaut sein muss.
+Für all unsere Projekte verfolgen wir im Groben die [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) Spezifikation. Diese Spezifikation beschreibt, wie eine Commit-Message aufgebaut sein muss.
 
 ### Aufbau
 
@@ -46,7 +46,7 @@ Ein Breaking Change ist eine Änderung, die bestehende Features beeinflusst. Die
 Zum Beispiel:
 
 ```
-change!: Klasse User zu Klasse Users geändert
+change!: Klasse User zu Klasse Users umbenannt
 
 change(api)!: Endpoint von POST /api/user zu POST /api/users geändert
 ```
@@ -61,4 +61,4 @@ Die Commit-Message ist bevorzugt auf Englisch zu schreiben. Bei Projekten, die n
 
 ### Warum Conventional Commits?
 
-Conventional Commits ist nicht nur ein Standard, der sich bei vielen Projekten durchgesetzt hat, sondern bietet auch Vorteile. Einerseits können Commits schnell kategoriesiert und verstanden werden. Weiterhin können aus den Commits automatisch Changelogs generiert werden (siehe [Release Please](release-please)). Außerdem können aus den Commits automatisch Versionsnummern generiert werden (siehe [Sementic Versioning](semver)).
+Conventional Commits ist nicht nur ein Standard, der sich bei vielen Projekten durchgesetzt hat, sondern bietet auch viele Vorteile. Einerseits können Commits schnell kategorisiert und verstanden werden. Weiterhin können aus den Commits automatisch Changelogs generiert werden (siehe [Release Please](release-please)). Außerdem können aus den Commits automatisch Versionsnummern generiert werden (siehe [Sementic Versioning](semver)).

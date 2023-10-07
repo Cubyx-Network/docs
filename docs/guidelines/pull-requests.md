@@ -1,4 +1,4 @@
-# Richtlinien für Pull Requests
+# Richtlinie für Pull Requests
 
 ## Was ist ein Pull Request?
 
