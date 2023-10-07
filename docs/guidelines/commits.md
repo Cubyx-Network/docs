@@ -26,6 +26,8 @@ Es gibt folgende Prefixe:
 | `deps`     | Es wurden Änderungen an den Abhängigkeiten vorgenommen                                            |
 | `content`  | Es wurden Änderungen am Inhalt vorgenommen, z.B. bei einer Website                                |
 | `chore`    | Es wurden marginale Änderungen vorgenommen, welche bestehende Features nicht beeinflussen         |
+| `test`     | Es wurden Änderungen an den Tests vorgenommen                                                     |
+| `ci`       | Es wurden Änderungen an der CI vorgenommen                                                        |
 
 #### Scope (optional)
 
