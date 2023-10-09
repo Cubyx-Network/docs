@@ -59,6 +59,14 @@ Die Commit-Message beschreibt, was genau geändert wurde. Diese wird nach dem Pr
 Die Commit-Message ist bevorzugt auf Englisch zu schreiben. Bei Projekten, die nur auf Deutsch sind, kann auch Deutsch verwendet werden.
 :::
 
+#### Commit-Body (optional)
+
+Wenn in einem Commit gleich mehrere Änderungen getätig worden, empfiehlt es sich, diese in einem Commit-Body zu beschreiben. Dieser wird nach dem gleichen Schema wie die Commit-Message aufgebaut. Jede Zeile stellt dabei eine Änderung dar.
+
+### Beispiel
+
+![Beispiel](img/docs/guidelines/commits/example.png)
+
 ### Warum Conventional Commits?
 
 Conventional Commits ist nicht nur ein Standard, der sich bei vielen Projekten durchgesetzt hat, sondern bietet auch viele Vorteile. Einerseits können Commits schnell kategorisiert und verstanden werden. Weiterhin können aus den Commits automatisch Changelogs generiert werden (siehe [Release Please](release-please)). Außerdem können aus den Commits automatisch Versionsnummern generiert werden (siehe [Sementic Versioning](semver)).
