@@ -65,7 +65,7 @@ Wenn in einem Commit gleich mehrere Änderungen getätig worden, empfiehlt es si
 
 ### Beispiel
 
-![Beispiel](img/docs/guidelines/commits/example.png)
+![Beispiel](./commit.png)
 
 ### Warum Conventional Commits?
 
